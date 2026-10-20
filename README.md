@@ -13,12 +13,12 @@
 [![MCP tool catalog](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](docs/mcp-contracts.md#generated-catalog)
 [![Node.js requirements](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#what-you-can-analyze)
 [![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
-[![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)][def2]
 [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM)
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Website](https://rea.tools/) · [Guides](https://rea.tools/guides/) · [Showcases](https://rea.tools/showcase/)**
+**[Website][def] · [Guides](https://rea.tools/guides/) · [Showcases](https://rea.tools/showcase/)**
 
 [Quick start](#quick-start) · [How REA works](#how-rea-works) · [What you can analyze](#what-you-can-analyze) · [Showcases](#showcases) · [FAQ](#faq) · [Documentation](#documentation)
 
@@ -28,7 +28,7 @@
 
 > [!IMPORTANT]
 > Get REA from [morluto/rea](https://github.com/morluto/rea),
-> [rea.tools](https://rea.tools/), or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents).
+> [rea.tools][def], or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents).
 > Follow the installation and release links from these official sources. A similar
 > repository name or copied README does not establish that a download is official.
 
@@ -64,7 +64,7 @@ REA connects your agent to tools for inspecting native binaries, JavaScript and 
 
 Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper, Ghidra, or IDA installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs no native analysis engine.
 
-> **[Visit the REA website](https://rea.tools/)** for setup instructions, illustrated guides, and real case studies.
+> **[Visit the REA website][def]** for setup instructions, illustrated guides, and real case studies.
 
 ## Quick start
 
@@ -386,11 +386,11 @@ to improve the code or docs.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and checks,
 [testing](docs/testing.md) for verification lanes, and the
-[architecture map](docs/architecture.mermaid) for the project structure.
+[architecture map][def3] for the project structure.
 
 ## License
 
-[MIT](LICENSE)
+[MIT][def2]
 
 REA-authored code is licensed under MIT. Third-party material retains its own
 licenses and copyright notices; see
@@ -404,3 +404,8 @@ demos remain subject to vendor terms, including user, feature, automation, and
 output sharing restrictions. Cracked copies, stolen keys, unauthorized key
 sharing, and bypassing license restrictions are not authorized. This guidance
 does not amend MIT or third-party licenses.
+
+
+[def]: https://rea.tools/
+[def2]: LICENSE
+[def3]: docs/architecture.mermaid
